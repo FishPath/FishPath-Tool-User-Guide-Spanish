@@ -60,7 +60,7 @@ En el lado superior izquierdo de la pantalla, los usuarios pueden ver una opció
 Esta opción notificará al usuario sobre el estatus de su cuestionario, respuestas y resultados (Figura \@ref(fig:saving-status)). Este barra de herramientas aparece abajo de la pantalla del cuestionario y le dice al usuario si sus respuestas han sido guardadas. Si las respuestas han sido guardadas, el texto mostrará “All changes saved”. En el case de que no tenga buen internet, es posible que las respuestas no se guarden e inmediatamente va a aparecer una notificación en rojo indicando que no se han guardado los cambios o “Changes pending” mientras la herramienta continua tratando de guardar. Los usuarios no deben cerrar o refrescar el servidor hasta que las respuestas hayan sido guardadas, de lo contrario, es probable que los cambios no se guarden y se pierda su progreso. Para mayor información sobre cómo usar la herramienta en contextos de conectividad limitada, por favor revise [este sección de preguntas FAQ abajo](#faq-internet). 
 
 
-```{r saving-status, echo=FALSE, fig.cap='Saving Status Toolbar functionality. The top image shows saved; the bottom image shows changes pending.', fig.align='center', out.width='95%', fig.show='hold'}
+```{r saving-status, echo=FALSE, fig.cap='Funcionalidad de la barra de herramientas del estado de guardado. La imagen superior muestra información o cambios guardados; la imagen inferior muestra cambios pendientes.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/saving-status-toolbar-es.png')
 ```
 
