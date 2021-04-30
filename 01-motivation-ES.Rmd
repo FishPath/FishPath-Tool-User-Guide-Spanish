@@ -1,5 +1,6 @@
 # Introducción {#intro}
 
+<!-- Motivation for Developing the FishPath Tool and FishPath Process -->
 ## Motivación para desarrollar la herramienta FishPath y el proceso requerido para el uso de esta herramienta {#motivation}
 Las pesquerías óptimamente manejadas y sustentables tienen elementos en común sin importar la circunstancia - las reglas que gobiernan las pesquerías sustentables son transparentes, apoyadas por las partes interesadas y hechas a la medida y al contexto de cada pesquería. En términos más técnicos, esto involucra la colecta de datos, que alimentan las evaluaciones y estas se usan para desarrollar medidas de manejo. Sin embargo, solo una pequeña fracción de las pesquerías a nivel mundial cuentan con estos sistemas de manejo. El resto son pesquerías con escasos recursos y datos limitados, por lo que enfrentan grandes desafíos para su desarrollo. Recientemente se ha logrado mejorar el desarrollo de evaluaciones pesqueras y otras herramientas para datos limitados, sin embargo, el gran reto para las pesquerías de datos limitados subyace en seleccionar e implementar las opciones apropiadas para la colecta de datos, evaluación del stock pesquero y medidas de manejo – los componentes clave de una estrategia de capturas.
 
@@ -8,7 +9,7 @@ La herramienta FishPath fue creada para abordar estos retos. Fue desarrollada a 
 
 El enfoque de FishPath incluye un proceso de acompañamiento y compromiso entre las partes interesadas que está sustentado en la herramienta FishPath. Este proceso busca la participación de los actores y el desarrollo de capacidades para  desarrollar acciones de manejo adecuadas para retos y condiciones locales. La herramienta de FishPath brinda apoyo al proceso de identificar componentes viables de la estrategia de manejo. 
 
-
+<!-- FishPath Tool Overview -->
 ## Visión general de la herramienta FishPath
  La herramienta FishPath, disponible en línea, es una herramienta de apoyo para la toma de decisiones en el manejo de pesquerías  con datos limitados. El objetivo principal de la herramienta FishPath es brindar apoyo a los usuarios para entender y filtrar las opciones para los tres principales componentes de una estrategia de capturas: 1) colecta de datos, 2) evaluación de pesquerías con datos limitados y 3) medidas de manejo. 
 
@@ -21,12 +22,15 @@ Es importante entender lo que la herramienta FishPath hace y no hace. FishPath N
 knitr::include_graphics('images/fishpath-tool-overview-diagram-es.png')
 ```
 
+<!-- Intended Audience and Use of the FishPath Tool -->
 ## Propósito y la audiencia de la guía de uso para la herramienta FishPath
 La herramienta FishPath pretende ser utilizada en dos situaciones clave. La primera situacion es con un facilitador capacitado en el uso de la herramienta FishPath y la segunda es como usuario individual. Cada una de estas audiencias puede tener distintos niveles de experiencia y conocimiento en ciencias pesqueras y manejo. 
 
+<!-- I. Tool Use in Facilitated Engagement Process or Workshop: -->
 #### I. Uso de la herramienta en un proceso liderado por un facilitador o en un taller:
 La herramienta de FishPath está diseñada para ser navegada por científicos pesqueros capacitados en el uso de la misma, que puedan facilitar su aplicación con grupos de actores y usuarios relevantes a la pesquería. Estos usuarios pueden ser grupos multiactor (ej. científicos, manejadores, universidades, industria pesquera,) o usuarios de un solo sector (ej. agencia pesquera). El facilitador lidera la discusión alrededor del cuestionario y sus posibles respuestas. En este contexto, el facilitador con el uso de la herramienta FishPath busca abordar cualquier brecha de conocimiento relacionada con términos técnicos y conceptos presentados en la herramienta, mejorando la accesibilidad de los usuarios. En este caso, los miembros de la audiencia son expertos en la pesquería (incluyendo pescadores) y están familiarizados con las ciencias pesqueras y el manejo, pero no requieren ser expertos en ciencias pesqueras o en el aspecto cuantitativo del manejo pesquero.
 
+<!-- Tool Use as Individual User: -->
 #### II. Uso de la herramienta por un usuario individual:
 La herramienta FishPath también tiene como intención ser usada por individuos o grupos sin el apoyo de un facilitador capacitado en FishPath (también referidos como “usuarios de computadora” o esos usuarios que utilizan la herramienta por su cuenta). Estos individuos tienen un conocimiento intermedio a avanzado en ciencias pesqueras y manejo. Para entender la herramienta en su totalidad y aplicarla de manera apropiada, se recomienda que estos usuarios lean y entiendan la guía de uso de la herramienta FishPath. Algunos ejemplos de usuarios individuales son:
 

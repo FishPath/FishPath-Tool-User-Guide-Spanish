@@ -31,23 +31,22 @@ knitr::include_graphics('images/results-components-es.png')
 ## Cuadro interactivo de resultados {#interactive-results-table}
 La lista de resultados contiene las opciones disponibles para esa sección. Cada fila representa una opcion (Figura \@ref(fig:result-rows)) y resume qué criterio se cumplió o falló y qué advertencias surgieron, entre otros detalles. Cada opción puede ser seleccionada y expandida para ver su descripción y lista de criterios y advertencias. Cada componente de las filas se explica a continuación.
 
-```{r result-rows, echo=FALSE, fig.cap='Headings of the FishPath Tool results table (bold black text) and 3 example options (3 rows). This is the Assessment section.', fig.align='center', out.width='95%', fig.show='hold'}
-knitr::include_graphics('images/results-rows.png')
+```{r result-rows, echo=FALSE, fig.cap='Ejemplo de la tabla de resultados de la herramienta FishPath y 3 opciones (3 filas). Esta es la sección de evaluación.', fig.align='center', out.width='95%', fig.show='hold'}
+knitr::include_graphics('images/results-rows-es.png')
 ```
 
 <!-- Table Structure -->
 ### Estructura de la tabla
 
-- **Esconder/ Mostrar:** Cualquier opcion para la cual uno o mas de sus mínimos criterios no se cumplieron en la pesquería, son automáticamente “escondidos” (se vuelve color gris) por la herramienta FishPath (Figura \@ref(fig:hide)). Para cualquier opción, incluyendo las que no cumplen criterios mínimos, los usuarios pueden manualmente hacer click en la opcion “hide” -o esconder o en la opción “unhide”-mostrar.
-<!-- Missing: Hidden options are only shown when the toggle “Show Hidden Options” is on (red label 2 in Figure \@ref(fig:results-components))  -->
+- **Esconder/ Mostrar:** Cualquier opcion para la cual uno o mas de sus mínimos criterios no se cumplieron en la pesquería, son automáticamente “escondidos” (se vuelve color gris) por la herramienta FishPath (Figura \@ref(fig:hide)). Para cualquier opción, incluyendo las que no cumplen criterios mínimos, los usuarios pueden manualmente hacer click en la opcion “hide” -o esconder o en la opción “unhide”-mostrar. Las opciones escondidas solo se muestran cuando el botón "Mostrar opciones escondidas" (o “Show Hidden Options”) está activada.
 
-```{r hide, echo=FALSE, fig.cap='Hide, unhide buttons', fig.align='center', out.width='10%', fig.show='hold'}
-knitr::include_graphics('images/hide.png')
+```{r hide, echo=FALSE, fig.cap='Habilidad de esconder (“hide”) o mostrar (“unhide”) opciones.', fig.align='center', out.width='10%', fig.show='hold'}
+knitr::include_graphics('images/hide-es.png')
 ```
 
 - **Notas:** : Al igual que el cuestionario, las notas pueden ser elaboradas y guardadas (con una conexión estable al internet) para cada opción (Figura \@ref(fig:notes)). Las notas pueden incluir detalles específicos de cada pesquería (que no se cubren dentro del cuestionario), por ejemplo, el porqué esa opcion puede ser o no ser una buena elección para la pesquería, o para registrar la opinión del usuario o del grupo sobre esa opcion cuando se consideran las advertencias. Igualmente, las notas pueden ser sobre opciones abiertas o  escondidas, para poder usarse como justificación. Las notas serán incluidas en el reporte PDF.
 
-```{r notes, echo=FALSE, fig.cap='Top icon shows an option with a note already taken. Click to view or edit the note. The bottom icon signifies that no note has been taken for the option. Click to create a new note.',fig.align='center', out.width='15%', fig.show='hold'}
+```{r notes, echo=FALSE, fig.cap='El ícono superior muestra una opción con una nota ya tomada. Haga clic para ver o editar la nota. El ícono de la parte inferior significa que no se ha tomado nota de la opción. Haga clic para crear una nueva nota.',fig.align='center', out.width='15%', fig.show='hold'}
 knitr::include_graphics('images/notes-es.png')
 ```
 
@@ -56,8 +55,8 @@ knitr::include_graphics('images/notes-es.png')
 Para la sección de colecta de datos los criterios son cumplidos o no cumplidos (Figura \@ref(fig:dc-criteria)). En una opción eliminada, las cajas color negro indican el numero de criterios mínimos que no fueron cumplidos. Las cajas color verde indican el número de criterios que fueron cumplidos.
 
 
-```{r dc-criteria, echo=FALSE, fig.cap='Example of data collection criteria icons. The top row shows an option that has been eliminated, signified by the red X. It was eliminated due to 1 of the 4 criteria not meeting the minimum requirement. The bottom row shows an option that passed, signified by the green check. The option met both of its criteria requirements.', fig.align='center', out.width='35%', fig.show='hold'}
-knitr::include_graphics('images/dc-criteria.png')
+```{r dc-criteria, echo=FALSE, fig.cap='Ejemplo de íconos de criterios de colecta de datos. La fila superior muestra una opción que ha sido eliminada, indicada con la cruz roja. Se eliminó debido a que 1 de los 4 criterios no cumplía con el requisito mínimo. La fila inferior muestra una opción que “pasó” o se aceptó, indicada por la palomita verde. La opción cumplió con los requisitos de ambos criterios.', fig.align='center', out.width='35%', fig.show='hold'}
+knitr::include_graphics('images/dc-criteria-es.png')
 ```
 
 <ul> <li style="list-style-type: none;">
@@ -67,7 +66,7 @@ El número de criterios “No cumplidos” para cada opción se muestra en la ca
 </li></ul>
 
 ```{r a-criteria, echo=FALSE, fig.cap='Ejemplo de los íconos de criterios de evaluación. La fila superior muestra una opción que ha sido eliminada debido a tres criterios que no se cumplieron, cuyo número se puede observar en la caja negra. La fila inferior muestra una opción que cumple con los criterios, representada por una palomita verde. Para ambas filas, cada color de semáforo muestra el número de criterios que cumplen y la severidad de advertencia sobre la incertidumbre.', fig.align='center', out.width='35%', fig.show='hold'}
-knitr::include_graphics('images/a-criteria.png')
+knitr::include_graphics('images/a-criteria-es.png')
 ```
 
 - **Advertencias:** El formato de la columna de advertencias es el mismo para las tres secciones (Figura \@ref(fig:caveats)). Las advertencias se muestran en círculos de colores con números que indican el número total de respuestas del cuestionario que dispararon una advertencia de ese color. Hay tres tipos de advertencia:
@@ -140,8 +139,7 @@ La disponibilidad de métodos analíticos incrementa cuando los datos e informac
 
   e. **Alto (tres barras):** Métodos que necesitan la cantidad más intensiva de datos y modelos computacionales, por ejemplo, modelos de dinámica poblacional.
 
-<!-- TODO: Translate -->
-- **Option:** This is the name of the option being considered.
+- **Opción:** Este es el nombre de la opción.
  
 <!-- Full Option Details -->
 ### Detalles completos de las opciones
@@ -160,9 +158,8 @@ Posteriormente, los criterios y advertencias que surgieron son resumidos como se
 
 A la par de cada uno, se encuentran menús desplegables individuales donde el usuario puede encontrar detalles específicos de cada criterio y advertencia, en conjunto con la pregunta y respuesta que disparó estos criterios o advertencias.
  
-<!-- TODO: update this figure -->
 ```{r opt-desc, echo=FALSE, fig.cap='Example of pop-up box that appears when clicking on each option. The user may click to expand each drop down menu for detail on each criteria or caveat (red label “Click to expand”).', fig.align='center', out.width='50%', fig.show='hold'}
-knitr::include_graphics('images/option-description.png')
+knitr::include_graphics('images/option-description-es.png')
 ```
 
 **Menú desplegable para los criterios (Figures \@ref(fig:crit-drop-down)-\@ref(fig:assessment-crit-drop-down))**: Cada menú desplegable de los criterios muestra las preguntas más relevantes con las respuestas provistas por el usuario (marcados en negro) relativo al nivel mínimo requerido para esa opción (en donde el color verde inicia a la izquierda - Figura \@ref(fig:crit-drop-down)).
@@ -204,11 +201,10 @@ La funcionalidad de “Ordenar opciones” permite al usuario odenar y ver las o
 
 Después de presionar “Ordenar opciones”, una caja aparecerá (Figura \@ref(fig:filter-and-sorting)) con la habilidad de ordenar las opciones de acuerdo a:
 
-<!-- TODO: translate and assessment only in tiers -->
-- In the Assessment section only, there is an additional option to select which category to display: “Assessment Category” or “Assessment Output”.
+- Únicamente para la sección de evaluación, hay una opción adicional para ordenar las opciones: “Categoría de evaluación” (o “Assessment Category”) o “Resultados de la evaluación” (o “Assessment Output”).
 -	**Orden predeterminado:** El orden predeterminado enlista todas las opciones que no cumplieron con el criterio mínimo en la parte inferior (automáticamente sombreado de color gris como opciones escondidas), con las opciones para las cuales el mayor número de advertencias fueron invocadas en la parte superior.
 -	**Orden personalizado:** Este mantiene el orden actual pero permite al usuario retornar a la tabla de resultados y “arrastrar y soltar” opciones en un orden preferido.
-- **Ordenar por el “nivel de evaluación” (Assessment Only):** Ordena las opciones de acuerdo a su complejidad y requerimiento o demanda de datos 
+- **Ordenar por el “nivel de evaluación” (únicamente para la sección de evaluación):** Ordena las opciones de acuerdo a su complejidad y requerimiento o demanda de datos 
 -	**Ordenar por medio del nombre de la opción:** Ordena las opciones alfabéticamente por el nombre de la opción.
 -	**Ordenar por categoría:** Ordena las opciones alfabéticamente por el nombre de cada categoría. Para la seccion de evaluación, los usuarios primeramente deben seleccionar la categoría que quieren visualizar y ordenar.
 
@@ -248,9 +244,8 @@ knitr::include_graphics('images/influential-answers-expanded.png')
 ### Ver todas las respuestas
 Hay 2 maneras para que el usuario pueda ver todas sus respuestas del cuestionario. Primero, en la parte de arriba de la página, los usuarios pueden presionar el link llamado “answers” (o respuestas) en el párrafo debajo del encabezado “results”. Segundo, en la parte de abajo de la página hay un botón llamado “See all answers” o “Ver todas las respuestas”. Después de hacer click en cualquiera de estas opciones, el usuario es dirigido a la página de respuestas que incluye una lista completa de todas las secciones con sus detalles correspondientes. Este es un buen recurso para usuarios que quieran revisar sus respuestas y notas asociadas a una pesquería. Las respuestas pueden ser modificadas y se pueden agregar notas las cuales se actualizan después de guardar los cambios.
 
-<!-- TODO:translate caption and image -->
-```{r answers-buttons, echo=FALSE, fig.cap='Two ways for users to view all answers to the questionnaire (red boxes) on the results page.', fig.align='center', out.width='75%', fig.show='hold'}
-knitr::include_graphics('images/see-all-answers-buttons.png')
+```{r answers-buttons, echo=FALSE, fig.cap='Hay dos maneras de ver todas las respuestas al cuestionario en la página de resultados (texto en rojo).', out.width='75%', fig.show='hold'}
+knitr::include_graphics('images/see-all-answers-buttons-es.png')
 ```
 
 <!-- Results Narrowing Process -->
@@ -261,10 +256,9 @@ El proceso para reducir resultados guía al usuario a través de una serie de pa
 
 Primero, el usuario puede acceder al proceso de reducir los resultados al seleccionar “Reducir tus resultados” localizado encima de la tabla de resultados en la pantalla de resultados (Ver Figura \@ref(fig:results-overview)).
 
-<!-- TODO: translate -->
-After clicking on “Narrow Your Results”, the user is directed to a step-wise results review process (Figure \@ref(fig:results-review-header)). Each step of the results review process contains an “Instructions” box above the results with clear steps, as well as the ability to access different steps of the results review process through “Back”, “Exit Review” and “Next Step” (Figure \@ref(fig:results-review-header)). The blue ribbon across the top of the page shows which step of the process the user is at.
+Después de hacer clic en “Revisar sus resultados”, el usuario es dirigido a un proceso de revisión de resultados (Figura \@ref(fig:results-review-header)). Cada paso del proceso de revisión de resultados contiene un cuadro de “Instrucciones” con pasos claros, así como la capacidad de acceder a distintos pasos del proceso de revisión de resultados a través de "Atrás" (o “Back”), "Salir" (o “Exit Review”) y "Paso siguiente" (o “Next Step”). La cinta azul en la parte superior de la página muestra en qué paso del proceso se encuentra el usuario.
 
-```{r results-review-header, echo=FALSE, fig.cap='Pantalla del proceso de reducir resultados.', fig.align='center', out.width='95%', fig.show='hold'}
+```{r results-review-header, echo=FALSE, fig.cap='Los pasos en el proceso de reducción de resultados.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/results-review-header.png')
 ```
 
@@ -295,8 +289,6 @@ Una vez que se completa este paso, los usuarios deben hacer click en “Finish�
 
 En la parte superior de la página de resultados, el usuario puede “Compartir”, “Exportar documento CSV”, “Copiar”, “Generar un reporte PDF” o “Editar nombre y detalles” de los resultados de su pesquería (Figura \@ref(fig:results-components)).
 
-<!-- TODO: Should add english text since these are buttons in the tool? -->
-<!-- TODO: check if sentence is stating fishery is view only-->
 -	**Compartir:** Esto generará un link que permite al usuario compartir los resultados de su pesquería con otras personas. El usuario simplemente debe mandar su vínculo o link y con este, el recipiente tendrá [**acceso a la pesquería únicamente desde su cuenta activa**](#View-Only). Una pesquería que ha sido compartida puede ser guardada en la cuenta FishPath de otra persona, que puede hacer una copia de dicha pesquería y editarla de manera separada si es necesario. Sugerencia: cuando se genera una copia de una pesquería compartida en la cuenta de un usuario, se recomienda renombrar la pesquería para que los cambios sean guardados bajo este nuevo nombre.
 -	**Exportar documento CSV:** Esto permite al usuario exportar la lista de preguntas y respuestas del cuestionario previamente guardado, asi como un documento con los resultados, como un .csv.
 -	**Generar reporte PDF:** Permite generar un reporte de los resultados y las notas agregadas en FishPath, en formato .PDF. El reporte provee información detallada de cada opcion, así como sus advertencias y criterios asociados a la pesquería. Los usuarios pueden elegir que el reporte incluya una lista completa o solamente las opciones más apropiadas.
@@ -311,7 +303,6 @@ Al hacer click en el link compartido, el usuario podrá ver los resultados en mo
 
 El usuario puede “Copiar la pesquería”, permitiéndole editar detalles de la pesquería como nombre y ubicación, y luego hacer ediciones. Esta pesquería “copiada” aparecerá en su tablero.
 
-<!-- TODO: translate caption -->
-```{r view-only, echo=FALSE, fig.cap='The “View-Only” mode of FishPath Tool results.', fig.align='center', out.width='95%', fig.show='hold'}
+```{r view-only, echo=FALSE, fig.cap='El modo “visualización únicamente” de los resultados de la herramienta FishPath.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/view-only.png')
 ```

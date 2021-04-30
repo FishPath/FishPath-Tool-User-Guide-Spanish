@@ -1,3 +1,4 @@
+<!-- FishPath Tool Questionnaire -->
 # Cuestionario de la herramienta FishPath
 
 La meta del cuestionario de la herramienta FishPath es obtener información sobre todos los aspectos de la pesquería. Esta información conlleva a la activación de ciertos supuestos, precauciones y consideraciones a tener en cuenta para cada opción. A través de las tres secciones (colecta de datos, evaluación del stock y medidas de manejo) el usuario contesta alrededor de ~120 preguntas. Las preguntas están divididas en 6 categorías, las cuales indican la naturaleza de la información que se busca:
@@ -19,6 +20,7 @@ Después de revisar la página de entrada al cuestionario FishPath (Figura \@ref
 knitr::include_graphics('images/dc-overview-es.png')
 ```
 
+<!-- Anatomy of a FishPath Tool Question -->
 ## Anatomía de una pregunta dentro de la herramienta FishPath
 La figura \@ref(fig:question-anatomy) y la figura \@ref(fig:bookmark-notes) provee un ejemplo de lo que se observa en la pantalla cuando se quiere contestar una pregunta dentro de la herramienta:
 
@@ -57,8 +59,7 @@ Generalmente, el mejor enfoque al completar el cuestionario es hacerlo de manera
 ## Completar el cuestionario
 Al completar o salir de cualquiera de las tres secciones, aparecerá una ventana indicando el estado o progreso del cuestionario (Figura \@ref(fig:summary-screen)). Los usuarios podrán revisar los resultados  para aquellas secciones completadas o de otra manera, continuar con el cuestionario.
 
-<!-- TODO: is this the paragraph that Mariana commented on? -->
-<!-- The questionnaire is periodically updated by the FishPath team to reflect the latest fisheries science. If there are any new or outstanding questions, the section will no longer display as “Complete” in the pop-up summary window (Figure \@ref(fig:summary-screen)) when returning to a fishery questionnaire. Instead, the number of new questions needing to be answered will be displayed (e.g., “45 of 46 questions answered”). For more information on questionnaire updates, please see [this FAQ below](#faq-content-updates). -->
+El equipo de FishPath actualiza periódicamente el cuestionario para reflejar la ciencia pesquera más reciente. Si hay preguntas nuevas o pendientes, la sección ya no se mostrará como “Completo” en la ventana de resumen emergente (Figura \@ref(fig:summary-screen)) al regresar a un cuestionario de pesquería. En su lugar, se mostrará el número de preguntas nuevas que deben responderse (por ej., “45 de 46 preguntas respondidas”). Para obtener más información sobre las actualizaciones del cuestionario, consulte [estas preguntas frecuentes a continuación](#faq-content-updates). 
 
  ```{r summary-screen, echo=FALSE, fig.cap='Ventana con el resumen de las 3 secciones del cuestionario FishPath, demostrando el progreso del cuestionario.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/summary-screen-es.png')
@@ -68,8 +69,7 @@ knitr::include_graphics('images/summary-screen-es.png')
 ## Marco conceptual de la herramienta FishPath
 En un panorama general, la herramienta FishPath es un marco conceptual que combina las respuestas del usuario al cuestionario con más 150 opciones contenidas dentro de la herramienta (Figure \@ref(fig:conceptual)). En otras palabras, las respuestas de los usuarios a las preguntas ayudan a caracterizar la pesquería. Cada respuesta puede disparar consideraciones cuando se aplica una opción a la pesquería. Estas consideraciones (y tipos de preguntas) pueden tomar dos formas. Los criterios denotan que la pesquería cumple o no cumple con los requerimientos básicos para poder usar cierta opción. Alternativamente, las advertencias se clasifican según su intensidad, en colores de semáforo, o advertencies estáticas que siempre aplican a la opción.
 
-<!-- TODO: update caption -->
- ```{r conceptual, echo=FALSE, fig.cap='High level, conceptual framework of the FishPath Tool, demonstrating the linkages between questions, options, and criteria or caveats.', fig.align='center', out.width='95%', fig.show='hold'}
+ ```{r conceptual, echo=FALSE, fig.cap='Marco conceptual de la herramienta FishPath, que demuestra los vínculos entre preguntas, opciones, y criterios o advertencias.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/conceptual-framework-es.png')
 ```
 

@@ -3,9 +3,11 @@ output:
   word_document: default
   html_document: default
 ---
+<!-- Starting the FishPath Tool -->
 # Iniciar la herramienta FishPath
 Es importante notar que la herramienta FishPath requiere una conexión al internet constante para poder acceder al cuestionario, guardar las respuestas e interactuar con los resultados.
 
+<!-- Welcome Page -->
 ## Página de Bienvenida
 Cuando un usuario navega la página https://www.tool.fishpath.org/, aparece un mensaje de bienvenida con dos opciones: “Crear cuenta” o “ Iniciar sesión” (Figura \@ref(fig:welcome)).
 
@@ -13,6 +15,7 @@ Cuando un usuario navega la página https://www.tool.fishpath.org/, aparece un m
 knitr::include_graphics('images/welcome-page-es.png')
 ```
 
+<!-- Creating a FishPath Account -->
 ## Crear una cuenta FishPath
 Al seleccionar “Crear una cuenta” (o “Create an account”), una ventana aparecerá solicitando la siguiente información (Figura \@ref(fig:create-account)). Un asterisco denota la información que es obligatoria proveer.
 
@@ -37,6 +40,7 @@ Despues de enviar una solicitud de cuenta, el usuario recibirá un correo de con
 knitr::include_graphics('images/login-page-es.png')
 ```
 
+<!-- FishPath Tool Dashboard -->
 ## Tablero de la herramienta FishPath
 Después de crear una cuenta (nuevo usuario) o de iniciar sesión (usuario existente), el usuario es dirigido al tablero o la “página principal” de la herramienta FishPath (Figura \@ref(fig:dashboard)). En este tablero/página los usuarios ven 4 encabezados:
 
@@ -49,6 +53,7 @@ Después de crear una cuenta (nuevo usuario) o de iniciar sesión (usuario exist
 knitr::include_graphics('images/user-dashboard-es.png')
 ```
 
+<!-- FishPath Tool Side Bar Menu -->
 #### Menú Herramienta FishPath
 En el lado superior izquierdo de la pantalla, los usuarios pueden ver una opción que dice “Menú herramienta FishPath” (o “FishPath Tool”) y al hacer click en las 3 líneas horizontales aparece una ventana emergente con un menú. Este menú permite al usuario poder regresar al tablero, poder salir de su cuenta, acceder materiales de referencia y poder habilitar una opción llamada “Saving status toolbar”.
 
@@ -59,6 +64,7 @@ Esta opción notificará al usuario sobre el estatus de su cuestionario, respues
 knitr::include_graphics('images/saving-status-toolbar-es.png')
 ```
 
+<!-- Adding a New Fishery -->
 ## Añadir una pesquería
 Al seleccionar el botón azul de “Añadir una pesquería” el usuario podrá empezar una pesquería nueva en la herramienta FishPath que será añadida a su cuenta. Primero, una ventana aparecerá llamada “Información sobre la pesquería”, la cual dará lugar a los usuarios a definir aspectos generales de la pesquería de interés (Figura \@ref(fig:fishery-info)), usando los campos que se proveen a continuación. Esta información ayuda a los usuarios a definir mejor la pesquría a la que aplicarán la herramienta FishPath, para que las respuestas sean dirigidas únicamente a esa pesquería de interés. Esta información también es útil para TNC para entender mejor el uso de la herramienta de FishPath y proveer información de alto nivel de las características de la pesquería.
 
