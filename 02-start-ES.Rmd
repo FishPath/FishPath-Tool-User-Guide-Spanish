@@ -28,7 +28,7 @@ Al seleccionar “Crear una cuenta” (o “Create an account”), una ventana a
 
 Es importante recordar que al ingresar su correo electrónico y su contraseña debe asegurar que utiliza adecuadamente letras mayúsculas y/o minúsculas.
 
-Esta información será utilizada para poder rastrear el origen y el uso de la herramienta FishPath. Durante el paso de creación de la cuenta, también se indicará al usuario leer y aceptar los términos de servicio de la herramienta FishPath, elaborados por The Nature Conservancy ([Appendix B](#terms)).
+Esta información será utilizada para poder rastrear el origen y el uso de la herramienta FishPath. Durante el paso de creación de la cuenta, también se indicará al usuario leer y aceptar los términos de servicio de la herramienta FishPath, elaborados por The Nature Conservancy.
 
 ```{r create-account, echo=FALSE, fig.cap='Pantalla de “Crear una cuenta” de la herramienta FishPath', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/create-account-es.png')
