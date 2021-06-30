@@ -1,0 +1,92 @@
+# Términos de Servicio para la Herramienta FishPath {#terms} 
+
+**Ultima Actualización: 23 de octubre del 2018**
+
+
+The Nature Conservancy (“TNC”, “nosotros”, “nos”, o “nuestro”) se complace en proveer FishPath, y el software, datos, sitios web, instrucciones y servicios relacionados (“FishPath”) a usted. Si usted utiliza FishPath a nombre de una empresa (como su empleador), esa empresa acepta estos Términos de Servicio (“Términos”) mediante su uso. En ese caso, las palabras “Usted” y “Su” en estos Términos se refieren tanto a usted como a esa empresa.
+
+Los Términos regirán Su acceso a y el uso de FishPath, así que por favor léalos cuidadosamente y lea nuestra Política de Privacidad antes de utilizar FishPath. Al registrarse en los sitios web de FishPath y usar FishPath, Usted acepta a regirse por estos Términos y por nuestra Política de Privacidad. Si Usted no está de acuerdo con estos Términos y nuestra Política de Privacidad, Usted no puede utilizar FishPath o los datos de FishPath de ninguna manera ni en ningún momento.
+
+
+#### Datos de FishPath: Sus Derechos y Su Privacidad{-}
+
+Hemos desarrollado FishPath como una aplicación fácil de usar para ayudar a los usuarios a diagnosticar los desafíos en su pesquería y seleccionar opciones apropiadas para la recolección de datos, evaluación de stock y medidas de manejo. FishPath permite que Usted utilice la información de Su pesquería (su “Envío”). Su Envío a FishPath es voluntario. Si Usted envía información a FishPath, estos Términos nos otorgan el derecho a ver y utilizar Su Envío para mejorar la funcionalidad de la herramienta según corresponda. Podemos copiar y compartir con el público una consolidación anónima de la información de los envíos, potencialmente incluyendo Su Envío. Sin embargo, no compartiremos Su Envío ni Su información en ningún formato que no sea consolidado.
+
+Por favor consulte nuestra [Política de Privacidad](https://www.nature.org/en-us/about-us/who-we-are/accountability/privacy-policy/) para una descripción de cómo recolectamos, utilizamos y divulgamos la información de FishPath, incluyendo Su Envío. Tenemos el derecho de remover o cambiar FishPath. Como se describe a continuación, no seremos responsables ante Usted si por alguna razón, todo o parte de FishPath no está disponible en cualquier momento o durante un periodo de tiempo.
+
+#### Sus Responsabilidades{-}
+
+Solo haga un Envió si Usted tiene todos los derechos necesarios para compartir la información con nosotros, incluyendo, pero no limitado a el uso con FishPath. Usted es únicamente responsable de su conducta y Su Envío mientras utiliza FishPath. Es Su responsabilidad asegurarse que Usted tenga los derechos o permisos necesarios para cumplir con estos Términos.
+
+Respete las leyes. No utilice FishPath con ningún propósito fraudulento o ilegal incluyendo infracciones de las leyes estatutarias, reglamentarias o contractuales. Respete los derechos de autor, privacidad, secretos comerciales, protección de datos, leyes de pesca y vida silvestre y todas las demás leyes. No intente hacerse pasar por otra persona en FishPath; si Usted se identifica, Usted debe siempre usar Su verdadera identidad.
+
+Sin nuestro consentimiento expreso por escrito, Usted no puede utilizar, mostrar, ni reflejar FishPath, cualquier elemento dentro de FishPath, o cualquier elemento que sea de nuestra propiedad (incluyendo, pero no limitado a nuestros logotipos y marcas). Además de cumplir con todas las leyes y regulaciones aplicables, Usted NO puede hacer nada de lo siguiente:
+
+- revender FishPath o datos de FishPath, o cualquier parte del mismo;
+- acceder o buscar datos de FishPath utilizando cualquier buscador, software, herramienta, agente, equipo o mecanismo (incluyendo spiders, robots, rastreadores, herramientas para minar datos o similar) aparte del software y/o buscadores que Nosotros proveamos o autoricemos;
+- investigar, examinar, sabotear o probar la vulnerabilidad de FishPath o cualquiera de nuestros sistemas o redes;
+- evitar, violar, desactivar, perjudicar o eludir cualquier medida de seguridad o autenticación, incluyendo esos que protegen a FishPath y sus datos;
+- tratar de descifrar, descompilar, desmontar o realizar ingeniería inversa en cualquier software provisto por FishPath;
+- interferir con, o tratar de interferir con, el acceso de cualquier usuario, servidor o red, incluyendo, pero sin limitación, el envió de un virus, o la sobrecarga de FishPath;
+- motivar o permitir que cualquier persona haga cualquiera cosa de lo anteriormente dicho.
+
+Tenemos el derecho de investigar infracciones de estos Términos o de conducta que pueda afectar a FishPath, nuestros sistemas o redes. También podemos consultar y cooperar con agentes de la ley para enjuiciar usuarios que violen la ley.
+
+#### Derechos Que Usted Concede En Su Información{-}
+
+Al realizar Su Envió, Usted nos concede una licencia no exclusiva, no transferible, global, libre de regalías para usar, copiar, modificar, crear trabajos derivados, distribuir, mostrar públicamente, realizar públicamente y distribuir Su Envió. Sin embargo, nosotros no compartiremos o distribuiremos notas específicas que Usted envió para Su pesquería.
+
+#### Derechos que le Otorgamos{-}
+
+Sujeto a Su cumplimiento de estos Términos, nosotros le otorgamos una licencia limitada, no exclusiva, no transferible, no sublicenciable, global, libre de regalías para utilizar el FishPath software, instrucciones, y sitios web y para ver, copiar, mostrar y crear trabajos derivados de los resultados de FishPath que nosotros hacemos disponible desde el sitio web FishPath para el manejo de Su pesquería.
+
+Usted no debe: (i) copiar, modificar o crear trabajos derivados que se basen en el software de FishPath, (ii) distribuir, transferir, sublicenciar, alquilar, o rentar el software de FishPath a ninguna tercera parte, (iii) realizar ingeniería reversa, descompilar o desmontar el software FishPath.
+
+El uso de FishPath o la carga de datos no le otorga la propiedad de ningún derecho de propiedad intelectual en FishPath (aparte de Su propio Envío). Nosotros y nuestros licenciantes somos dueños exclusivos de todos los derechos, títulos e intereses en y de FishPath, incluyendo todos los derechos de propiedad intelectual asociados. Usted reconoce que FishPath está protegido por los derechos de autor, marcas comerciales, y otras leyes de los Estados Unidos y países extranjeros. Usted acepta no eliminar, alterar u ocultar ningún aviso de derechos de autor, marca registrada, marca de servicio u otros derechos de propiedad incorporados en o acompañando FishPath.
+
+Estos Términos no le otorgan autorización de utilizar nuestras marcas, logotipos o nombres. Usted no debe utilizar nuestros nombres, logotipos o marcas sin nuestro permiso por escrito.
+
+#### Modificación de nuestros Términos de Servicio{-}
+
+Podemos actualizar estos términos de vez en cuando, a nuestra discreción. Le podemos notificar de dichas actualizaciones a través de cualquier medio razonable, como publicando los Términos revisados en el sitio web de FishPath. Por favor vea la leyenda “Ultima Actualización” al inicio para ver cuando estos términos fueron últimamente revisados. Su uso de FishPath después de cualquier revisión de los Términos significa que Usted acepta y está de acuerdo con ser regido por los Términos revisados. Si Usted no acepta estar regido por los Términos revisados, entonces Usted no puede seguir utilizando FishPath. Usted puede dejar de utilizar FishPath en cualquier momento. Nosotros también podemos dejar de proveer FishPath o añadir o crear nuevos límites a FishPath en cualquier momento.
+
+#### Descargo de Responsabilidad, Responsabilidad Limitada e Indemnización{-}
+
+Como describimos en más detalle a continuación, FishPath y sus datos son un recurso de información general y es provisto solo “Como Es” y “Como Disponible” sin ninguna garantía de ningún tipo. Usted no debe interpretar la publicación de datos de FishPath como una garantía de la calidad o disponibilidad de cualquier bien o servicio o soporte técnico.
+
+
+#### DESCARGOS DE RESPONSABILIDAD Y LIMITACION DE RESPONSABILIDAD{-}
+
+TODO EL CONTENIDO EN FISHPATH ES PROVISTO “COMO ES” Y “COMO DISPONIBLE” SIN NIGUNA GARANTIA DE NINGUN TIPO, YA SEA EXPRESA O IMPLICITA. SIN LIMITAR LO ANTERIOR, NOSOTROS EXPLICITAMENTE NOS EXONERAMOS DE TODAS Y CADA UNA DE LAS GARANTIAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN DETERMINADO, USO PACIFICO, O AUSENCIA DE INFRACCION, Y TODAS Y CADA UNA DE LAS GARANTIAS QUE SURGEN DEL CURSO DE LA NEGOCIACION O EL USO DEL COMERCIO. TNC NO OFRECE NINGUNA GARANTIA EN CUANTO LA CALIDAD, PRECISION, TOTALIDAD, PUNTUALIDAD O FIABILIDAD DE FISHPATH O DE CUALQUIER CONTENIDO DE FISHPATH. SU USO DE FISHPATH ES BAJO SU PROPIO RIESGO.
+
+TNC NO HACE DECLARACIONES NI GARANTIAS QUE SU USO DE FISHPATH SATISFAGA SUS NECESIDADES O SEA ININTERRUMPIDO, SEGURO O LIBRE DE ERRORES. LOS USUARIOS SON RESPONSABLES DE TOMAR TODAS LAS PRECAUCIONES NECESARIAS PARA ASEGURARSE QUE CUALQUIER CONTENIDO QUE PUEDA OBTENER DE LOS SERVICIOS SEA LIBRE DE VIRUSES U OTROS CODIGOS DAÑINOS.
+
+DE ACUERDO CON EL MAXIMO ALCANCE PERMITIDO POR LA LEY, NOSOTROS NO NOS HACEMOS RESPONSABLES POR CREAR, PRODUCIR, MANTENER, OPERAR O PROVEER FISHPATH O CONTENIDO DE FISHPATH, BAJO CUALQUIER TEORIA BASADA EN CONTRATO, GARANTIA, AGRAVIO (INCLUYENDO NEGLIGENCIA), RESPONSABILIDAD DEL PRODUCTO, RESPONSABILIDAD OBJECTIVA, U OTRA TEORIA LEGAL. ESTA LIMITACION DE RESPONSABILIDAD INCLUYE TODOS Y CADA UNO DE LOS DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, EJEMPLARES O CONSECUENTES, INCLUYENDO LA PERDIDA DE GANANCIAS, PERDIDA DE DATOS O BUENA VOLUNTAD, INTERRUPCIONES DE SERVICIO, DAÑOS A COMPUTADORES O SISTEMAS, O EL COSTO DE SERVICIOS SUBSTITUTIVOS QUE SURGEN DE O EN RELACION A ESTOS TERMINOS O DEL USO DE O INHABILIDAD DE USAR FISHPATH, INCLUSO SI SE NOS HA INFORMADO DE LA POSIBILIDAD DE TALES DAÑOS.
+
+LAS EXCLUSIONES MENCIONADAS ANTERIORMENTE Y LAS LIMITACIONES DE DAÑOS SON ELEMENTOS FUNDAMENTALES PARA LA BASE DE NEGOCIACION ENTRE USTED Y NOSOTROS.
+
+#### Indemnización{-}
+
+Usted acepta renunciar, indemnizar, defender y mantener indemne a TNC, nuestros subsidiarios y afiliados, y nuestros respectivos oficiales, directores, agentes, socios y empleados, de y contra de cualquier reclamo, disputa, demanda, responsabilidad, daño, perdida, y costos y gastos, incluyendo, sin limitación, honorarios legales y contables razonables que surjan de o estén relacionados de alguna manera con (i) Su acceso o uso de FishPath, (ii) Su Envió, o (iii) Su infracción de estos Términos.
+
+#### Terminación{-}
+
+Nosotros podemos terminar su acceso a y uso de FishPath bajo nuestra discreción, en cualquier momento y sin notificarle. Tras cualquier terminación, descontinuación o cancelación de FishPath, todas las provisiones de estos Términos que por su naturaleza deben sobrevivir, sobrevivirán. Esto incluye, por ejemplo, disposiciones de propiedad, renuncias a la garantía, y limitaciones de responsabilidad.
+
+#### Términos Generales{-}
+
+Estos Términos son el acuerdo completo y exclusivo entre Usted y nosotros con respecto a FishPath, y estos reemplazan cualquier acuerdo previo entre Usted y nosotros con respecto a FishPath.
+
+Estos Términos no crean derechos de beneficiario a terceros. Usted no puede asignar o transferir estos Términos, por operaciones de la ley o de otra manera, sin nuestro previo permiso escrito. Sujeto a lo anterior, estos Términos se van a comprometer a sus sucesores y asignados que han sido permitidos. Nosotros podemos asignar de manera libre o transferir estos Términos sin restricciones.
+
+Si Usted no cumple con estos Términos, y nosotros no tomamos medidas de inmediato, esto no significa que estamos renunciando a ningún derecho que podamos tener para tomar medidas en el futuro o buscar todas las soluciones disponibles.
+
+Si resulta ser que una provisión particular de estos Términos no es totalmente válida o ejecutable, esa provisión será ejecutada a su alcance máximo permisible y esto no afectará otros Términos.
+
+Todos los reclamos que surjan de este Acuerdo o relacionado a FishPath serán regidos por las leyes del Estado de California, excluyendo la aplicación de las reglas de conflictos de legislación. Cualquier acción o procedimiento legal que surja de este Acuerdo o relacionado a estos Servicios será traído exclusivamente en una corte federal o estatal de o para San Francisco, California. Usted acepta que todos y cada una de las disputas, reclamos, y causas de acción que surgen de o relacionados con estos Términos o Su Envió serán resueltas individualmente sin recurrir a ninguna forma de demanda colectiva.
+
+ 
+
+
+
+

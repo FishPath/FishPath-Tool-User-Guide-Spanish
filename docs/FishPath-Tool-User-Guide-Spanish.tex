@@ -5,10 +5,10 @@
 \documentclass[
   11pt,
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -42,7 +42,8 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -51,7 +52,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -69,12 +70,16 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{Guía de usuario para utilizar la herramienta FishPath}
 \author{The Nature Conservancy}
-\date{Última actualización: May 03, 2021}
+\date{Última actualización: June 30, 2021}
 
 \begin{document}
 \maketitle
@@ -1088,6 +1093,121 @@ The FishPath Tool does require an internet connection to load and function prope
 \paragraph{Why does the number of questions for each section appear to change?}\label{faq-question-numbering}}
 
 Many of the questions in the questionnaire are relevant to multiple sections. Once you answer a question that affects multiple sections, the Tool will not repeat that question again when completing the questionnaire for another section. For example, before starting the questionnaire for any section, there are 41 questions in Data Collection, 50 questions in Assessment, and 44 in Management Measures. A user starts by completing the Data Collection questionnaire. 6 of those questions also apply to Assessment and 14 apply to Management Measures as well. If the user answers the Assessment section next, instead of being asked all 50 questions, only 44 would be asked, since 6 of the questions have already been answered when completing the Data Collection questionnaire. Likewise, if the user answers the Management Measures section next, only 30 questions would be asked.
+
+\hypertarget{terms}{%
+\chapter{Términos de Servicio para la Herramienta FishPath}\label{terms}}
+
+\textbf{Ultima Actualización: 23 de octubre del 2018}
+
+The Nature Conservancy (``TNC'', ``nosotros'', ``nos'', o ``nuestro'') se complace en proveer FishPath, y el software, datos, sitios web, instrucciones y servicios relacionados (``FishPath'') a usted. Si usted utiliza FishPath a nombre de una empresa (como su empleador), esa empresa acepta estos Términos de Servicio (``Términos'') mediante su uso. En ese caso, las palabras ``Usted'' y ``Su'' en estos Términos se refieren tanto a usted como a esa empresa.
+
+Los Términos regirán Su acceso a y el uso de FishPath, así que por favor léalos cuidadosamente y lea nuestra Política de Privacidad antes de utilizar FishPath. Al registrarse en los sitios web de FishPath y usar FishPath, Usted acepta a regirse por estos Términos y por nuestra Política de Privacidad. Si Usted no está de acuerdo con estos Términos y nuestra Política de Privacidad, Usted no puede utilizar FishPath o los datos de FishPath de ninguna manera ni en ningún momento.
+
+\hypertarget{datos-de-fishpath-sus-derechos-y-su-privacidad}{%
+\subsubsection*{Datos de FishPath: Sus Derechos y Su Privacidad}\label{datos-de-fishpath-sus-derechos-y-su-privacidad}}
+\addcontentsline{toc}{subsubsection}{Datos de FishPath: Sus Derechos y Su Privacidad}
+
+Hemos desarrollado FishPath como una aplicación fácil de usar para ayudar a los usuarios a diagnosticar los desafíos en su pesquería y seleccionar opciones apropiadas para la recolección de datos, evaluación de stock y medidas de manejo. FishPath permite que Usted utilice la información de Su pesquería (su ``Envío''). Su Envío a FishPath es voluntario. Si Usted envía información a FishPath, estos Términos nos otorgan el derecho a ver y utilizar Su Envío para mejorar la funcionalidad de la herramienta según corresponda. Podemos copiar y compartir con el público una consolidación anónima de la información de los envíos, potencialmente incluyendo Su Envío. Sin embargo, no compartiremos Su Envío ni Su información en ningún formato que no sea consolidado.
+
+Por favor consulte nuestra \href{https://www.nature.org/en-us/about-us/who-we-are/accountability/privacy-policy/}{Política de Privacidad} para una descripción de cómo recolectamos, utilizamos y divulgamos la información de FishPath, incluyendo Su Envío. Tenemos el derecho de remover o cambiar FishPath. Como se describe a continuación, no seremos responsables ante Usted si por alguna razón, todo o parte de FishPath no está disponible en cualquier momento o durante un periodo de tiempo.
+
+\hypertarget{sus-responsabilidades}{%
+\subsubsection*{Sus Responsabilidades}\label{sus-responsabilidades}}
+\addcontentsline{toc}{subsubsection}{Sus Responsabilidades}
+
+Solo haga un Envió si Usted tiene todos los derechos necesarios para compartir la información con nosotros, incluyendo, pero no limitado a el uso con FishPath. Usted es únicamente responsable de su conducta y Su Envío mientras utiliza FishPath. Es Su responsabilidad asegurarse que Usted tenga los derechos o permisos necesarios para cumplir con estos Términos.
+
+Respete las leyes. No utilice FishPath con ningún propósito fraudulento o ilegal incluyendo infracciones de las leyes estatutarias, reglamentarias o contractuales. Respete los derechos de autor, privacidad, secretos comerciales, protección de datos, leyes de pesca y vida silvestre y todas las demás leyes. No intente hacerse pasar por otra persona en FishPath; si Usted se identifica, Usted debe siempre usar Su verdadera identidad.
+
+Sin nuestro consentimiento expreso por escrito, Usted no puede utilizar, mostrar, ni reflejar FishPath, cualquier elemento dentro de FishPath, o cualquier elemento que sea de nuestra propiedad (incluyendo, pero no limitado a nuestros logotipos y marcas). Además de cumplir con todas las leyes y regulaciones aplicables, Usted NO puede hacer nada de lo siguiente:
+
+\begin{itemize}
+\tightlist
+\item
+  revender FishPath o datos de FishPath, o cualquier parte del mismo;
+\item
+  acceder o buscar datos de FishPath utilizando cualquier buscador, software, herramienta, agente, equipo o mecanismo (incluyendo spiders, robots, rastreadores, herramientas para minar datos o similar) aparte del software y/o buscadores que Nosotros proveamos o autoricemos;
+\item
+  investigar, examinar, sabotear o probar la vulnerabilidad de FishPath o cualquiera de nuestros sistemas o redes;
+\item
+  evitar, violar, desactivar, perjudicar o eludir cualquier medida de seguridad o autenticación, incluyendo esos que protegen a FishPath y sus datos;
+\item
+  tratar de descifrar, descompilar, desmontar o realizar ingeniería inversa en cualquier software provisto por FishPath;
+\item
+  interferir con, o tratar de interferir con, el acceso de cualquier usuario, servidor o red, incluyendo, pero sin limitación, el envió de un virus, o la sobrecarga de FishPath;
+\item
+  motivar o permitir que cualquier persona haga cualquiera cosa de lo anteriormente dicho.
+\end{itemize}
+
+Tenemos el derecho de investigar infracciones de estos Términos o de conducta que pueda afectar a FishPath, nuestros sistemas o redes. También podemos consultar y cooperar con agentes de la ley para enjuiciar usuarios que violen la ley.
+
+\hypertarget{derechos-que-usted-concede-en-su-informaciuxf3n}{%
+\subsubsection*{Derechos Que Usted Concede En Su Información}\label{derechos-que-usted-concede-en-su-informaciuxf3n}}
+\addcontentsline{toc}{subsubsection}{Derechos Que Usted Concede En Su Información}
+
+Al realizar Su Envió, Usted nos concede una licencia no exclusiva, no transferible, global, libre de regalías para usar, copiar, modificar, crear trabajos derivados, distribuir, mostrar públicamente, realizar públicamente y distribuir Su Envió. Sin embargo, nosotros no compartiremos o distribuiremos notas específicas que Usted envió para Su pesquería.
+
+\hypertarget{derechos-que-le-otorgamos}{%
+\subsubsection*{Derechos que le Otorgamos}\label{derechos-que-le-otorgamos}}
+\addcontentsline{toc}{subsubsection}{Derechos que le Otorgamos}
+
+Sujeto a Su cumplimiento de estos Términos, nosotros le otorgamos una licencia limitada, no exclusiva, no transferible, no sublicenciable, global, libre de regalías para utilizar el FishPath software, instrucciones, y sitios web y para ver, copiar, mostrar y crear trabajos derivados de los resultados de FishPath que nosotros hacemos disponible desde el sitio web FishPath para el manejo de Su pesquería.
+
+Usted no debe: (i) copiar, modificar o crear trabajos derivados que se basen en el software de FishPath, (ii) distribuir, transferir, sublicenciar, alquilar, o rentar el software de FishPath a ninguna tercera parte, (iii) realizar ingeniería reversa, descompilar o desmontar el software FishPath.
+
+El uso de FishPath o la carga de datos no le otorga la propiedad de ningún derecho de propiedad intelectual en FishPath (aparte de Su propio Envío). Nosotros y nuestros licenciantes somos dueños exclusivos de todos los derechos, títulos e intereses en y de FishPath, incluyendo todos los derechos de propiedad intelectual asociados. Usted reconoce que FishPath está protegido por los derechos de autor, marcas comerciales, y otras leyes de los Estados Unidos y países extranjeros. Usted acepta no eliminar, alterar u ocultar ningún aviso de derechos de autor, marca registrada, marca de servicio u otros derechos de propiedad incorporados en o acompañando FishPath.
+
+Estos Términos no le otorgan autorización de utilizar nuestras marcas, logotipos o nombres. Usted no debe utilizar nuestros nombres, logotipos o marcas sin nuestro permiso por escrito.
+
+\hypertarget{modificaciuxf3n-de-nuestros-tuxe9rminos-de-servicio}{%
+\subsubsection*{Modificación de nuestros Términos de Servicio}\label{modificaciuxf3n-de-nuestros-tuxe9rminos-de-servicio}}
+\addcontentsline{toc}{subsubsection}{Modificación de nuestros Términos de Servicio}
+
+Podemos actualizar estos términos de vez en cuando, a nuestra discreción. Le podemos notificar de dichas actualizaciones a través de cualquier medio razonable, como publicando los Términos revisados en el sitio web de FishPath. Por favor vea la leyenda ``Ultima Actualización'' al inicio para ver cuando estos términos fueron últimamente revisados. Su uso de FishPath después de cualquier revisión de los Términos significa que Usted acepta y está de acuerdo con ser regido por los Términos revisados. Si Usted no acepta estar regido por los Términos revisados, entonces Usted no puede seguir utilizando FishPath. Usted puede dejar de utilizar FishPath en cualquier momento. Nosotros también podemos dejar de proveer FishPath o añadir o crear nuevos límites a FishPath en cualquier momento.
+
+\hypertarget{descargo-de-responsabilidad-responsabilidad-limitada-e-indemnizaciuxf3n}{%
+\subsubsection*{Descargo de Responsabilidad, Responsabilidad Limitada e Indemnización}\label{descargo-de-responsabilidad-responsabilidad-limitada-e-indemnizaciuxf3n}}
+\addcontentsline{toc}{subsubsection}{Descargo de Responsabilidad, Responsabilidad Limitada e Indemnización}
+
+Como describimos en más detalle a continuación, FishPath y sus datos son un recurso de información general y es provisto solo ``Como Es'' y ``Como Disponible'' sin ninguna garantía de ningún tipo. Usted no debe interpretar la publicación de datos de FishPath como una garantía de la calidad o disponibilidad de cualquier bien o servicio o soporte técnico.
+
+\hypertarget{descargos-de-responsabilidad-y-limitacion-de-responsabilidad}{%
+\subsubsection*{DESCARGOS DE RESPONSABILIDAD Y LIMITACION DE RESPONSABILIDAD}\label{descargos-de-responsabilidad-y-limitacion-de-responsabilidad}}
+\addcontentsline{toc}{subsubsection}{DESCARGOS DE RESPONSABILIDAD Y LIMITACION DE RESPONSABILIDAD}
+
+TODO EL CONTENIDO EN FISHPATH ES PROVISTO ``COMO ES'' Y ``COMO DISPONIBLE'' SIN NIGUNA GARANTIA DE NINGUN TIPO, YA SEA EXPRESA O IMPLICITA. SIN LIMITAR LO ANTERIOR, NOSOTROS EXPLICITAMENTE NOS EXONERAMOS DE TODAS Y CADA UNA DE LAS GARANTIAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN DETERMINADO, USO PACIFICO, O AUSENCIA DE INFRACCION, Y TODAS Y CADA UNA DE LAS GARANTIAS QUE SURGEN DEL CURSO DE LA NEGOCIACION O EL USO DEL COMERCIO. TNC NO OFRECE NINGUNA GARANTIA EN CUANTO LA CALIDAD, PRECISION, TOTALIDAD, PUNTUALIDAD O FIABILIDAD DE FISHPATH O DE CUALQUIER CONTENIDO DE FISHPATH. SU USO DE FISHPATH ES BAJO SU PROPIO RIESGO.
+
+TNC NO HACE DECLARACIONES NI GARANTIAS QUE SU USO DE FISHPATH SATISFAGA SUS NECESIDADES O SEA ININTERRUMPIDO, SEGURO O LIBRE DE ERRORES. LOS USUARIOS SON RESPONSABLES DE TOMAR TODAS LAS PRECAUCIONES NECESARIAS PARA ASEGURARSE QUE CUALQUIER CONTENIDO QUE PUEDA OBTENER DE LOS SERVICIOS SEA LIBRE DE VIRUSES U OTROS CODIGOS DAÑINOS.
+
+DE ACUERDO CON EL MAXIMO ALCANCE PERMITIDO POR LA LEY, NOSOTROS NO NOS HACEMOS RESPONSABLES POR CREAR, PRODUCIR, MANTENER, OPERAR O PROVEER FISHPATH O CONTENIDO DE FISHPATH, BAJO CUALQUIER TEORIA BASADA EN CONTRATO, GARANTIA, AGRAVIO (INCLUYENDO NEGLIGENCIA), RESPONSABILIDAD DEL PRODUCTO, RESPONSABILIDAD OBJECTIVA, U OTRA TEORIA LEGAL. ESTA LIMITACION DE RESPONSABILIDAD INCLUYE TODOS Y CADA UNO DE LOS DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, EJEMPLARES O CONSECUENTES, INCLUYENDO LA PERDIDA DE GANANCIAS, PERDIDA DE DATOS O BUENA VOLUNTAD, INTERRUPCIONES DE SERVICIO, DAÑOS A COMPUTADORES O SISTEMAS, O EL COSTO DE SERVICIOS SUBSTITUTIVOS QUE SURGEN DE O EN RELACION A ESTOS TERMINOS O DEL USO DE O INHABILIDAD DE USAR FISHPATH, INCLUSO SI SE NOS HA INFORMADO DE LA POSIBILIDAD DE TALES DAÑOS.
+
+LAS EXCLUSIONES MENCIONADAS ANTERIORMENTE Y LAS LIMITACIONES DE DAÑOS SON ELEMENTOS FUNDAMENTALES PARA LA BASE DE NEGOCIACION ENTRE USTED Y NOSOTROS.
+
+\hypertarget{indemnizaciuxf3n}{%
+\subsubsection*{Indemnización}\label{indemnizaciuxf3n}}
+\addcontentsline{toc}{subsubsection}{Indemnización}
+
+Usted acepta renunciar, indemnizar, defender y mantener indemne a TNC, nuestros subsidiarios y afiliados, y nuestros respectivos oficiales, directores, agentes, socios y empleados, de y contra de cualquier reclamo, disputa, demanda, responsabilidad, daño, perdida, y costos y gastos, incluyendo, sin limitación, honorarios legales y contables razonables que surjan de o estén relacionados de alguna manera con (i) Su acceso o uso de FishPath, (ii) Su Envió, o (iii) Su infracción de estos Términos.
+
+\hypertarget{terminaciuxf3n}{%
+\subsubsection*{Terminación}\label{terminaciuxf3n}}
+\addcontentsline{toc}{subsubsection}{Terminación}
+
+Nosotros podemos terminar su acceso a y uso de FishPath bajo nuestra discreción, en cualquier momento y sin notificarle. Tras cualquier terminación, descontinuación o cancelación de FishPath, todas las provisiones de estos Términos que por su naturaleza deben sobrevivir, sobrevivirán. Esto incluye, por ejemplo, disposiciones de propiedad, renuncias a la garantía, y limitaciones de responsabilidad.
+
+\hypertarget{tuxe9rminos-generales}{%
+\subsubsection*{Términos Generales}\label{tuxe9rminos-generales}}
+\addcontentsline{toc}{subsubsection}{Términos Generales}
+
+Estos Términos son el acuerdo completo y exclusivo entre Usted y nosotros con respecto a FishPath, y estos reemplazan cualquier acuerdo previo entre Usted y nosotros con respecto a FishPath.
+
+Estos Términos no crean derechos de beneficiario a terceros. Usted no puede asignar o transferir estos Términos, por operaciones de la ley o de otra manera, sin nuestro previo permiso escrito. Sujeto a lo anterior, estos Términos se van a comprometer a sus sucesores y asignados que han sido permitidos. Nosotros podemos asignar de manera libre o transferir estos Términos sin restricciones.
+
+Si Usted no cumple con estos Términos, y nosotros no tomamos medidas de inmediato, esto no significa que estamos renunciando a ningún derecho que podamos tener para tomar medidas en el futuro o buscar todas las soluciones disponibles.
+
+Si resulta ser que una provisión particular de estos Términos no es totalmente válida o ejecutable, esa provisión será ejecutada a su alcance máximo permisible y esto no afectará otros Términos.
+
+Todos los reclamos que surjan de este Acuerdo o relacionado a FishPath serán regidos por las leyes del Estado de California, excluyendo la aplicación de las reglas de conflictos de legislación. Cualquier acción o procedimiento legal que surja de este Acuerdo o relacionado a estos Servicios será traído exclusivamente en una corte federal o estatal de o para San Francisco, California. Usted acepta que todos y cada una de las disputas, reclamos, y causas de acción que surgen de o relacionados con estos Términos o Su Envió serán resueltas individualmente sin recurrir a ninguna forma de demanda colectiva.
 
 \hypertarget{glossary}{%
 \chapter{Glossary}\label{glossary}}
