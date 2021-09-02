@@ -29,7 +29,7 @@ Once a fishery is copied, changes in the original or copied fishery will have no
 
 ##### Does the FishPath Tool need the internet to run? {#faq-internet}
 
-The FishPath Tool does require an internet connection to load and function properly. However, the Tool has been designed to handle poor or intermittent internet connections. Once logged in, the Tool can partially function without the internet. If the internet cuts out or lags while working, the Tool will store any answers to questions or changes made while offline in the browser until it is able to reconnect with the server and save the changes. The [saving status toolbar][Saving Status Toolbar] across the bottom of the screen lets the user know if any changes have not been able to be saved to the server. Closing the window or navigating away from the Tool when there are unsaved changes, will cause those changes to be lost.
+The FishPath Tool does require an internet connection to load and function properly. However, the Tool has been designed to handle poor or intermittent internet connections. Once logged in, the Tool can partially function without the internet. If the internet cuts out or lags while working, the Tool will store any answers to questions or changes made while offline in the browser until it is able to reconnect with the server and save the changes. The [saving status toolbar][La barra de herramientas del estado de guardado] across the bottom of the screen lets the user know if any changes have not been able to be saved to the server. Closing the window or navigating away from the Tool when there are unsaved changes, will cause those changes to be lost.
 
 ##### Why does the number of questions for each section appear to change? {#faq-question-numbering}
 
