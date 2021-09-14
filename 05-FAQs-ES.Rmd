@@ -1,37 +1,37 @@
 # (APPENDIX) Appendix {-} 
 
-# FishPath Tool Frequently Asked Questions (FAQs)
+# Preguntas más frecuentes sobre la herramienta FishPath
 
-##### How do I submit feedback about content or user experience? {#faq-feedback}
+##### ¿Cómo envío comentarios sobre el contenido o la experiencia del usuario? {#faq-feedback}
 
-FishPath benefits from the expertise and feedback of the global community of FishPath tool users. Users are encouraged to submit feedback about the FishPath tool, ultimately helping to improve the tool. There are two ways to submit feedback:
+FishPath se beneficia de la experiencia y sugerencias de la comunidad global de los usuarios, que son alentados a ingresar sus sugerencias sobre la herramienta FishPath, para ayudarnos a mejorar. Hay dos maneras en las que puede ingresar sus sugerencias:
 
-1.	The “Submit Feedback” button on FishPath Tool Dashboard. The user is prompted to categorize their feedback as “Content Related” or “Software Issue”.
-2.	Email support@fishpath.org 
+1.	El botón “Ingresar sugerencias” en el tablero de la herramienta FishPath. Se le sugiere al usuario a categorizar sus sugerencias como “Relacionado al contenido” o “Problemas con el software”.
+2.	Enviar un correo electrónico a la dirección support@fishpath.org 
 
-##### How does the FishPath Tool content (questions, options, caveats, etc.) get updated? And how often? {#faq-content-updates}
+##### ¿Cómo se actualiza el contenido de la herramienta FishPath (preguntas, opciones, advertencias, etc.)? ¿Y con qué frecuencia? {#faq-content-updates}
 
-The FishPath team is composed of practicing fisheries managers and scientists who stay up to date on the changing field of fisheries research. The Tool is maintained with the aim of being as current with fishery management practices, science and literature as possible. We also strive to correct any mistakes found in the Tool as quickly as possible. In order to do this, content updates can be made at any time. 
+El equipo de FishPath está compuesto por científicos pesqueros y expertos en la gestión de pesquerías que se mantienen actualizados en el ámbito dinámico de la investigación pesquera. La herramienta se mantiene con el objetivo de estar lo más actualizada posible con las prácticas de ordenación pesquera, la ciencia y la literatura. También nos esforzamos por corregir cualquier error encontrado en la herramienta lo más rápido posible. Para ello, se pueden realizar actualizaciones de contenido en cualquier momento.
 
-Suggestions from users regarding the content is also greatly appreciated and encouraged. We recognize that fisheries occur in a wide variety of contexts and our small team cannot know every possible scenario and caveat. Any feedback will get a full review and be incorporated into the Tool as needed. 
+Las sugerencias de los usuarios con respecto al contenido también son muy apreciadas y alentadas. Reconocemos que las pesquerías ocurren en una amplia variedad de contextos y nuestro pequeño equipo no puede conocer todos los escenarios y advertencias posibles. Cualquier comentario recibirá una revisión completa y se incorporará a la herramienta según sea necesario.
 
-Every time a user logs in, the Tool will use the most up to date version of the Tool content. No action is needed to receive the updates, even if the questionnaire is already completed. If a new question has been added after a user has completed the questionnaire, a prompt will appear to answer that question before returning to the results screen.
+Cada vez que un usuario inicia sesión, la herramienta utilizará la versión más actualizada del contenido de la herramienta. No es necesario realizar ninguna acción para recibir las actualizaciones, incluso si el cuestionario ya está completado. Si se ha agregado una nueva pregunta después de que un usuario haya completado el cuestionario, aparecerá un mensaje para responder esa pregunta antes de regresar a la pantalla de resultados.
 
-##### How do I stay updated on changes to the FishPath Tool questionnaire or content? {#faq-stay-updated}
+##### ¿Cómo puede mantenerse actualizado sobre los cambios en el contenido o el cuestionario de la herramienta FishPath? {#faq-stay-updated}
 
-A brief summary of any major changes is documented in the biannual newsletter.
+En el boletín semestral se documenta un breve resumen de los cambios importantes.
 
-An up to date list of all content changes is documented in the [change log](https://github.com/FishPath/FishPath-Tool-User-Guide/blob/master/Major%20Content%20Updates.md). This list contains an overview of major changes such as new or edited questions and options. A detailed spreadsheet of every criteria and caveat change is [located here](https://docs.google.com/spreadsheets/d/1HPlUvI6XuvXtYdFk5bpOsG4JR1fdM0D58KO5mBs0fyE/edit?usp=sharing). It allows you to filter and sort by specific options or questions.
+En [el registro de cambios](https://github.com/FishPath/FishPath-Tool-User-Guide/blob/master/Major%20Content%20Updates.md) se documenta una lista actualizada de todos los cambios de contenido. Esta lista contiene una descripción general de los cambios importantes, como preguntas y opciones nuevas o editadas. [Aquí se encuentra](https://docs.google.com/spreadsheets/d/1HPlUvI6XuvXtYdFk5bpOsG4JR1fdM0D58KO5mBs0fyE/edit?usp=sharing) una hoja de cálculo detallada de todos los criterios y cambios de advertencia. Le permite filtrar y ordenar por opciones o preguntas específicas.
 
-##### Are answers to new questions also updated in “copied fisheries”? {#faq-copy-fisheries}
+##### ¿Las respuestas a las preguntas nuevas también son actualizadas en “las pesquerías copiadas”? {#faq-copy-fisheries}
 
-Once a fishery is copied, changes in the original or copied fishery will have no effect on the other.
+Una vez que una pesquería es copiada, los cambios a la pesquería original o copiada no tendrán efectos uno sobre el otro.
 
-##### Does the FishPath Tool need the internet to run? {#faq-internet}
+##### ¿La herramienta FishPath necesita Internet para funcionar? {#faq-internet}
 
-The FishPath Tool does require an internet connection to load and function properly. However, the Tool has been designed to handle poor or intermittent internet connections. Once logged in, the Tool can partially function without the internet. If the internet cuts out or lags while working, the Tool will store any answers to questions or changes made while offline in the browser until it is able to reconnect with the server and save the changes. The [saving status toolbar][La barra de herramientas del estado de guardado] across the bottom of the screen lets the user know if any changes have not been able to be saved to the server. Closing the window or navigating away from the Tool when there are unsaved changes, will cause those changes to be lost.
+La herramienta FishPath requiere una conexión a Internet para cargarse y funcionar correctamente. Sin embargo, la herramienta ha sido diseñada para manejar conexiones a Internet intermitentes. Una vez que haya iniciado sesión, la herramienta puede funcionar parcialmente sin Internet. Si la señal se corta o se retrasa, la herramienta guardará las respuestas a las preguntas o los cambios realizados mientras está “fuera de línea” hasta que pueda volver a conectarse con el servidor y guardar los cambios. La [“barra de herramientas del estado de guardado”][La barra de herramientas del estado de guardado] en la parte inferior de la pantalla le permite al usuario saber si algún cambio no se ha podido guardar en el servidor. Cerrar la ventana o navegar fuera de la herramienta cuando hay cambios no guardados hará que esos cambios se pierdan.
 
-##### Why does the number of questions for each section appear to change? {#faq-question-numbering}
+##### ¿Por qué parece cambiar el número de preguntas de cada sección? {#faq-question-numbering}
 
-Many of the questions in the questionnaire are relevant to multiple sections. Once you answer a question that affects multiple sections, the Tool will not repeat that question again when completing the questionnaire for another section. For example, before starting the questionnaire for any section, there are 41 questions in Data Collection, 50 questions in Assessment, and 44 in Management Measures. A user starts by completing the Data Collection questionnaire. 6 of those questions also apply to Assessment and 14 apply to Management Measures as well. If the user answers the Assessment section next, instead of being asked all 50 questions, only  44 would be asked, since 6 of the questions have already been answered when completing the Data Collection questionnaire. Likewise, if the user answers the Management Measures section next, only 30 questions would be asked.
+Muchas de las preguntas del cuestionario son relevantes para múltiples secciones. Una vez que responda a una pregunta que afecta a varias secciones, la herramienta no repetirá esa pregunta al completar el cuestionario para otra sección. Por ejemplo, antes de comenzar el cuestionario para cualquier sección, hay 41 preguntas en la sección de colecta de datos, 50 preguntas en evaluación y 44 en medidas de manejo. Un usuario comienza el cuestionario con la sección de recopilación de datos. 6 de esas preguntas también se aplican a la evaluación y 14 también a las medidas de manejo. Si después el usuario responde la sección de evaluación, en lugar de que se le hagan las 50 preguntas, solo se le harán 44, ya que 6 de las preguntas ya han sido respondidas al completar el cuestionario de colecta de datos. Asimismo, si el usuario responde a continuación a la sección medidas de manejo, solo se le harían 30 preguntas.
 
