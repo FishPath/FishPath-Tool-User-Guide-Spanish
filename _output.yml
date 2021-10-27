@@ -10,6 +10,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">Guía de usuario: la herramienta FishPath</a></li>
       after: |
+        <li><a href="https://fishpath.github.io/FishPath-Tool-User-Guide/" target="blank">View this guide in English</a></li>
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
