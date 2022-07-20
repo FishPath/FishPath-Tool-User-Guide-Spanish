@@ -12,7 +12,7 @@ The total number of a kind of ﬁsh in a population; this is rarely known, and u
 <font size="2">Source: (ref:NOAACite)</font>
 
 
-### B0 (unfished Biomass)
+### B0 (Unfished Biomass)
 "B0", unfished biomass or virgin biomass, refers to the average biomass of a stock that has yet not been fished. It is generally calculated as the long-term average biomass value expected in the absence of fishing mortality. In production models, B0 is also known as carrying capacity. It is often used as a reference value to assist the relative health of a stock, monitoring changes in the ratio between current and virgin biomass (B/B0).
 
 <font size="2">Source: Restrepo V. (1999): Annotated Glossary of Terms in Executive Summary Reports of the International Commission for the Conservation of Atlantic Tunas' Standing Committee on Research and Statistics (SCRS), _ICCAT_.
